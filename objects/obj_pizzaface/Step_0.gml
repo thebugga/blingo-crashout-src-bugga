@@ -19,30 +19,42 @@ if !instance_exists(obj_treasure)
 		{
 			if _move
 			{
-				var dir = point_direction(x, y, playerid.x, playerid.y)
-				var mvsp = maxspeed + abs(obj_player.vsp) + abs(obj_player.hsp) / 8
-				mvsp *= 0.56
-				var turnspd = mvsp / 50
-				targetplayer = obj_player
-				var _g = distance_to_point(targetplayer.x, targetplayer.y)
-				if (_g < 150)
-				    maxspeed = 8
-				else if (_g < 300)
-				    maxspeed = 10
-				else if (_g < 100)
-				    maxspeed = 7
-				else if (_g < 50)
-				    maxspeed = 6
-				else if (_g < 450)
-				    maxspeed = 13
-				else if (_g < 650)
-				    maxspeed = 16
+				if timer <= 60
+				{
+					timer++
+					var dir = point_direction(x, y, playerid.x, playerid.y)
+					var mvsp = maxspeed + abs(obj_player.vsp) + abs(obj_player.hsp) / 8
+					mvsp *= 0.56
+					var turnspd = mvsp / 50
+					targetplayer = obj_player
+					var _g = distance_to_point(targetplayer.x, targetplayer.y)
+					if (_g < 150)
+					    maxspeed = 8
+					else if (_g < 300)
+					    maxspeed = 10
+					else if (_g < 100)
+					    maxspeed = 7
+					else if (_g < 50)
+					    maxspeed = 6
+					else if (_g < 450)
+					    maxspeed = 13
+					else if (_g < 650)
+					    maxspeed = 16
+					else
+					    maxspeed = 18
+					hsp = approach(hsp, lengthdir_x(mvsp, dir), turnspd)
+					vsp = approach(vsp, lengthdir_y(mvsp, dir), turnspd)
+					x += hsp
+					y += vsp
+				}
 				else
-				    maxspeed = 18
-				hsp = approach(hsp, lengthdir_x(mvsp, dir), turnspd)
-				vsp = approach(vsp, lengthdir_y(mvsp, dir), turnspd)
-				x += hsp
-				y += vsp
+				{		
+					maxspeed = 22
+					var dir = point_direction(x, y, playerid.x, playerid.y)
+					x += lengthdir_x(maxspeed, dir)
+					y += lengthdir_y(maxspeed, dir)
+					timer -= 10
+				}
 			}
 		}
 	}
