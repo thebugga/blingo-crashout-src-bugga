@@ -1,0 +1,1 @@
+gameframe_caption_text = "Wasting time in Blingo's Crashout"
