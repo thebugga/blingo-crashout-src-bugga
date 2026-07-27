@@ -76,8 +76,8 @@ make_loop_sound = function(_state, _sound, _func = noone, _looppoints = noone, _
 	is_3d = _is_3d
 }
 
-character = characters.noise
-charletter = "N"
+character = characters.peppino
+charletter = "P"
 pal_select = 1
 pattern_spr = pat_pizza
 asset_player_reset(charletter)

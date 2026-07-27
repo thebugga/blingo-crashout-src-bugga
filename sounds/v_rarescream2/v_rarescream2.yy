@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.5186666,
+  "duration":2.322,
   "exportDir":"",
   "name":"v_rarescream2",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"v_rarescream2.wav",
+  "soundFile":"v_rarescream2.mp3",
   "volume":1.0,
 }

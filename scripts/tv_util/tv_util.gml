@@ -21,7 +21,12 @@ function tv_expression(spr)
 			alarm[0] = 120
 			expr_sprite = spr
 			if spr == spr_tv_collect && irandom(100) >= 50
-				scr_sound_pitched(choose(v_pep_shuk, v_pep_paranoid, v_pep_paParanoid), 0.9, 1.1)
+			{
+				if obj_player.character != characters.noise
+					scr_sound_pitched(choose(v_pep_shuk, v_pep_paranoid, v_pep_paParanoid), 0.9, 1.1)
+				else
+					scr_sound_pitched(choose(v_n_alright,v_n_alright_3), 0.9, 1.1)
+			}
 			break;
 		default:
 			state_togo = tv_states.expr

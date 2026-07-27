@@ -5,5 +5,7 @@ function hud_get_visible(hideforboss = true)
 		   room != rank_room &&
 		   room != rm_timesup &&
 		   room != mainmenu &&
+		   room != theintrothingidk &&
+		   room != thelogoscreen &&
 		   global.option_showhud;
 }

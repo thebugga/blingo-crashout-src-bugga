@@ -296,7 +296,7 @@ function do_hurt(obj = noone)
 	i_frames = 100
 	
 	scr_sound_pitched(sfx_hurt, 0.9, 1.1)
-	if irandom(100) >= 50
+	if irandom(100) >= 50 && obj_player.character != characters.noise
 		scr_sound_pitched(choose(v_pep_hurt, v_pep_hurt2), 0.7, 1.3)
 	
 	particle_create(x, y, particles.parry)

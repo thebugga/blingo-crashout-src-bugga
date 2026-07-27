@@ -30,7 +30,7 @@
   "height":151,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"78cd1801-fe8e-4bd6-b203-a38183fd622d","blendMode":0,"displayName":"default","isLocked":false,"name":"78cd1801-fe8e-4bd6-b203-a38183fd622d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"35095460-9792-487f-a51b-11ef37de1e6e","blendMode":0,"displayName":"default","isLocked":false,"name":"35095460-9792-487f-a51b-11ef37de1e6e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_timer_pizzaface_wake",
   "nineSlice":null,

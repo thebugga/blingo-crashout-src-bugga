@@ -9,7 +9,7 @@
   "channelFormat":1,
   "compression":2,
   "compressionQuality":4,
-  "conversionMode":0,
+  "conversionMode":1,
   "duration":239.68584,
   "exportDir":"",
   "name":"mu_P_pizzatime",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"mu_P_pizzatime.ogg",
+  "soundFile":"mu_P_pizzatime.wav",
   "volume":1.0,
 }

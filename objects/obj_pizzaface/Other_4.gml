@@ -7,3 +7,5 @@ alarm[0] = 1
 //if room == rank_room
 if !global.panic.active
 	instance_destroy()
+hsp = 0
+vsp = 0

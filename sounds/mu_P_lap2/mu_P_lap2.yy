@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"mu_P_lap2.mp3",
+  "soundFile":"mu_P_lap2.wav",
   "volume":1.0,
 }

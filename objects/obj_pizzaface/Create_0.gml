@@ -2,6 +2,9 @@ maxspeed = 8
 image_speed = 0.35
 depth = -5
 
+hsp = 0
+vsp = 0
+
 savedcx = camera_get_view_x(view_camera[0])
 savedcy = camera_get_view_y(view_camera[0])
 

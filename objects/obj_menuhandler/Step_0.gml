@@ -46,8 +46,8 @@ if abletoinput
 		{
 			if character == characters.peppino
 			{
-				character = characters.noise
-				charletter = "N"
+				character = characters.peppino
+				charletter = "P"
 			}
 			else if character == characters.noise
 			{

@@ -12,7 +12,7 @@ depth = -200
 xstart = x
 ystart = y
 
-asset_tv_reset("N")
+asset_tv_reset("P")
 expr_sprite = spr_tv_mach3
 state_togo = tv_states.expr
 state = tv_states.off

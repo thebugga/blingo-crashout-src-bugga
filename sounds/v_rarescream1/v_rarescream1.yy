@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.7026666,
+  "duration":1.49725,
   "exportDir":"",
   "name":"v_rarescream1",
   "parent":{

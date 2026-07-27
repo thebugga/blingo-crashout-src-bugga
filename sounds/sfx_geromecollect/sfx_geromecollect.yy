@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.5240135,
+  "duration":1.7763333,
   "exportDir":"",
   "name":"sfx_geromecollect",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"sfx_geromecollect.ogg",
+  "soundFile":"sfx_geromecollect.mp3",
   "volume":1.0,
 }

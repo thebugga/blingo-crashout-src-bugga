@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"v_n_alright_1",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":2,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.7662708,
+  "exportDir":"",
+  "name":"v_n_alright_1",
+  "parent":{
+    "name":"Noise",
+    "path":"folders/Sounds/Voice/Noise.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"v_n_alright_1.wav",
+  "volume":1.0,
+}
