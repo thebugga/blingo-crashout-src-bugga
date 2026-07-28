@@ -6,6 +6,10 @@
   "bbox_left":32,
   "bbox_right":72,
   "bbox_top":27,
+  "bbox_bottom":95,
+  "bbox_left":32,
+  "bbox_right":72,
+  "bbox_top":27,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -19,7 +23,7 @@
   "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4620b627-c6d7-4e7e-b048-d7e8a538763f","blendMode":0,"displayName":"default","isLocked":false,"name":"4620b627-c6d7-4e7e-b048-d7e8a538763f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ce52892c-0ed3-4414-a46f-fdc80b96f44a","blendMode":0,"displayName":"default","isLocked":false,"name":"ce52892c-0ed3-4414-a46f-fdc80b96f44a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_stick_exitidle",
   "nineSlice":null,
@@ -49,6 +53,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
+    "length":1.0,
     "length":1.0,
     "lockOrigin":false,
     "moments":{

@@ -42,6 +42,8 @@
     {"name":"inst_62DC271F","path":"rooms/city_1/city_1.yy",},
     {"name":"inst_A6D2F54","path":"rooms/city_1/city_1.yy",},
     {"name":"inst_677748BB","path":"rooms/city_1/city_1.yy",},
+    {"name":"inst_43471343","path":"rooms/city_1/city_1.yy",},
+    {"name":"inst_6D1BA814","path":"rooms/city_1/city_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -86,6 +88,12 @@
         {"$GMRInstance":"v4","%Name":"inst_62DC271F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_62DC271F","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-90.034996,"scaleX":10.0,"scaleY":2.0,"x":512.0,"y":1184.0,},
         {"$GMRInstance":"v4","%Name":"inst_A6D2F54","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A6D2F54","objectId":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":1.0,"x":288.0,"y":1408.0,},
         {"$GMRInstance":"v4","%Name":"inst_677748BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_677748BB","objectId":{"name":"obj_cheeseslime","path":"objects/obj_cheeseslime/obj_cheeseslime.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":335.0,"y":1355.0,},
+        {"$GMRInstance":"v4","%Name":"inst_43471343","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43471343","objectId":{"name":"obj_hallway","path":"objects/obj_hallway/obj_hallway.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_hallway","path":"objects/obj_hallway/obj_hallway.yy",},"propertyId":{"name":"t_room","path":"objects/obj_hallway/obj_hallway.yy",},"resource":{"name":"city_lap","path":"rooms/city_lap/city_lap.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"city_lap",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-2.0,"scaleY":2.0,"x":-96.0,"y":320.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6D1BA814","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6D1BA814","objectId":{"name":"obj_doorpoint","path":"objects/obj_doorpoint/obj_doorpoint.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_doorpoint","path":"objects/obj_doorpoint/obj_doorpoint.yy",},"propertyId":{"name":"spawn","path":"objects/obj_doorpoint/obj_doorpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"c\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-96.0,"y":416.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":79,"SerialiseWidth":68,"TileCompressedData":[
           -15,54,1,9,-13,54,2,30,26,-25,54,2,30,26,-7,54,6,10,11,12,54,54,8,-23,54,8,6,54,54,55,51,54,54,6,-4,

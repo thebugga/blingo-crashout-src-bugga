@@ -16,10 +16,10 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":120,
+  "height":100,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c4c347a3-4267-4daf-97f2-51ce281d4000","blendMode":0,"displayName":"default","isLocked":false,"name":"c4c347a3-4267-4daf-97f2-51ce281d4000","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ce472846-1e6a-4e05-b72d-d0ea53954b2e","blendMode":0,"displayName":"default","isLocked":false,"name":"ce472846-1e6a-4e05-b72d-d0ea53954b2e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_stick_exitfall",
   "nineSlice":null,
@@ -49,6 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
+    "length":1.0,
     "length":1.0,
     "lockOrigin":false,
     "moments":{
@@ -88,5 +89,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":130,
+  "width":100,
 }
