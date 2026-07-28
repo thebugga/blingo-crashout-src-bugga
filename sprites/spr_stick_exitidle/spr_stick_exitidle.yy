@@ -6,10 +6,6 @@
   "bbox_left":32,
   "bbox_right":72,
   "bbox_top":27,
-  "bbox_bottom":95,
-  "bbox_left":32,
-  "bbox_right":72,
-  "bbox_top":27,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -53,7 +49,6 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
     "length":1.0,
     "lockOrigin":false,
     "moments":{
