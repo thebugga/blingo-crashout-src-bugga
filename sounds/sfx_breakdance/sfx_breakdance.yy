@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.7575625,
+  "duration":4.4226665,
   "exportDir":"",
   "name":"sfx_breakdance",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"sfx_breakdance.ogg",
-  "volume":0.8,
+  "soundFile":"sfx_breakdance.wav",
+  "volume":1.0,
 }
