@@ -1,0 +1,2 @@
+audio_stop_sound(mu_intro)
+room_goto(theintrothingidk)

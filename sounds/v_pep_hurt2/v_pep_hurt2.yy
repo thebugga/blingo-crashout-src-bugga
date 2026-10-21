@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"v_pep_hurt2",
+  "audioGroupId":{
+    "name":"ag_sfx",
+    "path":"audiogroups/ag_sfx",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.5257292,
+  "exportDir":"",
+  "name":"v_pep_hurt2",
+  "parent":{
+    "name":"Peppino",
+    "path":"folders/Sounds/Voice/Peppino.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":48000,
+  "soundFile":"v_pep_hurt2.wav",
+  "volume":1.0,
+}
